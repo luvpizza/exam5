@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+  border-right: 3px dashed rgb(0, 0, 0);
+}
+
+.title {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+button, input {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 23px;
+  padding: 6px 18px;
+  border: 2px solid black;
+}
+button:focus, input:focus {
+  outline: none;
+}
+
+button:hover {
+  background: rgb(202, 202, 202);
+  cursor: pointer;
+}
+
+#btn__clr {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+
+.input__box {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  padding: 15px;
+}
+.name__box {
+  margin-top: 100px;
+}
+.name h1 {
+  opacity: 0.6;
+  transition: 0.15s;
+  display: inline;
+  border-bottom: 2px dotted black;
+}
+.name h1:hover {
+  opacity: 1;
+}/*# sourceMappingURL=Style.css.map */
