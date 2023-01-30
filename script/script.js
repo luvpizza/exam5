@@ -57,10 +57,12 @@ btnSave.addEventListener("click", ()=>{
     
     if( nameInpTag.value.trim() === '' || (alphReg.test(nameInpTag.value.trim()) === true) ){
         nameInpTag.value = ""
+        nameInpTag.placeholder = "Недопустимое значение"
     } else {
         saveName(nameInpTag.value.trim())
         // alert("ELSEIF")
         nameInpTag.value = ""
+        nameInpTag.placeholder = "Введите имя"
     }
 })
 
